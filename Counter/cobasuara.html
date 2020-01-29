@@ -1,0 +1,29 @@
+ <!DOCTYPE HTML>
+  <html>
+  <DefaultAssociations>
+  <Association Identifier=".htm" ProgId="FirefoxHTML" ApplicationName="Firefox" />
+  <Association Identifier=".html" ProgId="FirefoxHTML" ApplicationName="Firefox" />
+  <Association Identifier=".php" ProgId="FirefoxHTML" ApplicationName="Firefox" />
+  <Association Identifier=".shtml" ProgId="FirefoxHTML" ApplicationName="Firefox" />
+  <Association Identifier=".xht" ProgId="FirefoxHTML" ApplicationName="Firefox" />
+  <Association Identifier=".xhtml" ProgId="FirefoxHTML" ApplicationName="Firefox" />
+  <Association Identifier="ftp" ProgId="FirefoxURL" ApplicationName="Firefox" />
+  <Association Identifier="http" ProgId="FirefoxURL" ApplicationName="Firefox" />
+  <Association Identifier="https" ProgId="FirefoxURL" ApplicationName="Firefox" />
+</DefaultAssociations>
+  <head>
+  <title>Audio</title>
+  </head>
+  <body>
+
+    <script>
+  function play(){
+       var audio = document.getElementById("audio");
+       audio.play();
+                 }
+   </script>
+
+<input type="button" value="PLAY"  onclick="play()">
+<audio id="audio" src="audio/doorbell-1.wav" ></audio>
+ </body>
+ </html>

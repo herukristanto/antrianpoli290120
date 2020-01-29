@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DefaultAssociations>
+  <Association Identifier=".htm" ProgId="FirefoxHTML" ApplicationName="Firefox" />
+  <Association Identifier=".html" ProgId="FirefoxHTML" ApplicationName="Firefox" />
+  <Association Identifier=".shtml" ProgId="FirefoxHTML" ApplicationName="Firefox" />
+  <Association Identifier=".xht" ProgId="FirefoxHTML" ApplicationName="Firefox" />
+  <Association Identifier=".xhtml" ProgId="FirefoxHTML" ApplicationName="Firefox" />
+  <Association Identifier="ftp" ProgId="FirefoxURL" ApplicationName="Firefox" />
+  <Association Identifier="http" ProgId="FirefoxURL" ApplicationName="Firefox" />
+  <Association Identifier="https" ProgId="FirefoxURL" ApplicationName="Firefox" />
+</DefaultAssociations>
